@@ -18,7 +18,7 @@ function Hero() {
       id: 2,
       image: "/images/banner-vinhphat-2.jpg",
       title: "Đội xe hiện đại, đa dạng",
-      description: "Sở hữu đội xe đa dạng từ xe tải nhỏ đến container, xe đầu kéo phục vụ mọi nhu cầu vận chuyển"
+      description: "Sở hữu đội xe cẩu phục vụ mọi nhu cầu vận chuyển"
     },
     {
       id: 3,

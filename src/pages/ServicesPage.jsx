@@ -11,7 +11,7 @@ function ServicesPage() {
       id: 1,
       icon: FaTruck,
       title: "Vận chuyển hàng hóa",
-      description: "Dịch vụ vận chuyển hàng hóa đa dạng, phù hợp với mọi nhu cầu của khách hàng từ hàng nhỏ lẻ đến hàng container.",
+      description: "Dịch vụ vận chuyển hàng hóa đa dạng, phù hợp với mọi nhu cầu của khách hàng từ hàng nhỏ lẻ đến hàng lớn.",
       features: [
         "Vận chuyển hàng hóa nội thành",
         "Vận chuyển hàng hóa liên tỉnh",
@@ -20,19 +20,19 @@ function ServicesPage() {
       ],
       image: "https://images.unsplash.com/photo-1601584115197-04ecc0da31d7?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80"
     },
-    {
-      id: 2,
-      icon: FaShippingFast,
-      title: "Vận chuyển container",
-      description: "Chuyên vận chuyển container các loại 20ft, 40ft đến mọi tỉnh thành trên cả nước với giá cả cạnh tranh.",
-      features: [
-        "Vận chuyển container 20ft, 40ft",
-        "Vận chuyển container lạnh",
-        "Vận chuyển container hàng nguy hiểm",
-        "Vận chuyển container quá khổ, quá tải"
-      ],
-      image: "https://images.unsplash.com/photo-1494412651409-8963ce7935a7?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80"
-    },
+    // {
+    //   id: 2,
+    //   icon: FaShippingFast,
+    //   title: "Vận chuyển container",
+    //   description: "Chuyên vận chuyển container các loại 20ft, 40ft đến mọi tỉnh thành trên cả nước với giá cả cạnh tranh.",
+    //   features: [
+    //     "Vận chuyển container 20ft, 40ft",
+    //     "Vận chuyển container lạnh",
+    //     "Vận chuyển container hàng nguy hiểm",
+    //     "Vận chuyển container quá khổ, quá tải"
+    //   ],
+    //   image: "https://images.unsplash.com/photo-1494412651409-8963ce7935a7?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80"
+    // },
     {
       id: 3,
       icon: FaWarehouse,
@@ -50,11 +50,10 @@ function ServicesPage() {
       id: 4,
       icon: FaTools,
       title: "Cho thuê xe cẩu",
-      description: "Dịch vụ Cho thuê xe cẩu các loại từ 1 tấn đến 15 tấn, xe container theo giờ, theo ngày hoặc theo tháng.",
+      description: "Dịch vụ Cho thuê xe cẩu các loại từ 1 tấn đến 15 tấn theo giờ, theo ngày hoặc theo tháng.",
       features: [
         "Cho thuê xe cẩu 1-15 tấn",
         "Cho thuê xe đầu kéo",
-        "Cho thuê xe container",
         "Cho thuê xe theo giờ, ngày, tháng"
       ],
       image: "https://images.unsplash.com/photo-1519003722824-194d4455a60c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80"
@@ -122,7 +121,7 @@ function ServicesPage() {
       </section>
 
       {/* Process Section */}
-      <section className="py-12 sm:py-16 bg-light">
+      {/* <section className="py-12 sm:py-16 bg-light">
         <div className="container px-4 sm:px-6">
           <h2 className="section-title">Quy trình làm việc</h2>
           <p className="section-subtitle">
@@ -157,7 +156,7 @@ function ServicesPage() {
             </div>
           </div>
         </div>
-      </section>
+      </section> */}
 
       {/* CTA Section */}
       <section className="py-12 sm:py-16 bg-primary text-white">

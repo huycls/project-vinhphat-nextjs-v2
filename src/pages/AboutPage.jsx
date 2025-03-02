@@ -56,7 +56,7 @@ function AboutPage() {
                 Với nhiều năm kinh nghiệm trong ngành vận tải, chúng tôi tự hào mang đến cho khách hàng dịch vụ vận chuyển tối ưu với chi phí hợp lý nhất.
               </p>
               <p className="text-gray-600 mb-4 text-sm sm:text-base">
-                Chúng tôi sở hữu đội xe đa dạng từ xe tải nhỏ đến container, xe đầu kéo, sẵn sàng đáp ứng mọi nhu cầu vận chuyển của khách hàng.
+                Chúng tôi sở hữu đội xe cẩu sẵn sàng đáp ứng mọi nhu cầu vận chuyển của khách hàng.
                 Đội ngũ tài xế giàu kinh nghiệm, am hiểu tuyến đường và luôn đặt sự an toàn lên hàng đầu.
               </p>
               <p className="text-gray-600 mb-6 text-sm sm:text-base">
@@ -137,7 +137,7 @@ function AboutPage() {
       </section>
 
       {/* Our History */}
-      <section className="py-12 sm:py-16">
+      {/* <section className="py-12 sm:py-16">
         <div className="container px-4 sm:px-6">
           <h2 className="section-title">Lịch sử phát triển</h2>
           <p className="section-subtitle">
@@ -187,7 +187,7 @@ function AboutPage() {
             </div>
           </div>
         </div>
-      </section>
+      </section> */}
     </div>
   )
 }
