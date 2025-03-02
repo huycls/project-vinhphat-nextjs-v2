@@ -29,7 +29,7 @@ function Hero() {
   ]
 
   return (
-    <div className="relative pt-16 sm:pt-20">
+    <div className="relative pt-20">
       <Swiper
         spaceBetween={0}
         centeredSlides={true}
