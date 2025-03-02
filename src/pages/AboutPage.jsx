@@ -28,7 +28,7 @@ function AboutPage() {
   ]
 
   return (
-    <div className="pt-16 sm:pt-20">
+    <div className="pt-20">
       {/* Hero Section */}
       <section className="relative h-[250px] sm:h-[300px] md:h-[400px]">
         <img 
